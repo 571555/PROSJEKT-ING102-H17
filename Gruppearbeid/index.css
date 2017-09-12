@@ -1,3 +1,7 @@
+@font-face {
+font-family: Headerfont;
+src: url(TheLightFont.ttf);
+}
 
 img {
     width: 100%;
@@ -20,4 +24,15 @@ img {
     border: 6px solid white;
     background-color: white;
     min-height: 1000px;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: Headerfont;
+    font-size: 3.6em;
+    
+  }
+
+  p {
+    font-family: Headerfont;
+    font-size: 1.2em;
   }
