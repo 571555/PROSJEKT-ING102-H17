@@ -20,7 +20,7 @@ li {
 
 li a, .dropbtn {
     display: inline-block;
-    color: rgba(0, 0, 0, 1);
+    color: #FFFFFF;
     text-align: center;
     padding: 14px 16px;
     font-family: verdana;
@@ -69,20 +69,20 @@ body {
 
 .forside {
 	width: 100%;
-	height: 400px;
+	height: 600px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
-	background-image: url(Bilder/Bakgrunn.jpg);
+	background-image: url(Forsidebilde1.jpg);
 	background-position: center top;
 }
 
 .overskrift {
 	position: absolute;
 	font-family: verdana;
-	font-size: 5em;
+	font-size: 7em;
 	left=0;
-	top: 20%;
+	top: 55%;
 	width: 100%;
 	text-align: center;
 	color: rgba(57, 148, 190, 0.92);
@@ -100,7 +100,7 @@ body {
 	background-size: contain;
 	background-repeat: no-repeat;
 	text-align: center;
-	background-image: url(Bilder/TEAMbanner.jpg);
+	background-image: url();
 	background-position: center top;
 }
 
