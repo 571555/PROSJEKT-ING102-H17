@@ -15,9 +15,11 @@ ul {
 }
 
 li {
-    float: left;
+	float: left;
 }
-
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgba(57, 148, 190, 0.92);
+}
 li a, .dropbtn {
     display: inline-block;
     color: #FFFFFF;
@@ -28,9 +30,7 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: rgba(57, 148, 190, 0.92);
-}
+
 
 li.dropdown {
     display: inline-block;
@@ -74,9 +74,10 @@ body {
 	background-repeat: no-repeat;
 	text-align: center;
 	background-image: url(Forsidebilde1.jpg);
-	background-position: center top;
+	background-position: center top;	
 }
 
+}
 .overskrift {
 	position: absolute;
 	font-family: verdana;
@@ -126,3 +127,21 @@ body {
     text-align: center;
     padding: 50px;
 }
+
+.circular--landscape {
+	display: inline-block;
+	position: relative;
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin:25px;
+	margin-top: 100px;
+	align-self: center;
+  }
+  .circular--landscape img {
+	width: auto;
+	height: 100%;
+	margin-left: 0px;
+	
+  }
